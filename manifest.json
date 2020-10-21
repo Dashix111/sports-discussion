@@ -1,0 +1,34 @@
+{
+    "name": "Sports Discussion",
+    "version": "1.0",
+    "description": "A chome extension that allows users to discuss everything about sports.",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "storage",
+        "declarativeContent",
+        "tabs",
+        "https://*/",
+        "http://*/"
+    ],
+    "page_action": {
+        "default_popup": "templates/base.html",
+        "default_icon": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png",
+            "128": "images/get_started128.png"
+        }
+    },
+    "icons": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+    }
+}
