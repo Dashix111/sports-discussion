@@ -7,7 +7,7 @@ export const TEAMS = {
       short: "ATL",
       other: [],
       reddit: "www.reddit.com/r/AtlantaHawks/",
-      discord: "www.discord.com",
+      discord: "www.discord.com/channels/555171631539028000/555651921382342666",
     },
     {
       fullname: "Boston Celtics",
@@ -16,7 +16,7 @@ export const TEAMS = {
       short: "BOS",
       other: [],
       reddit: "www.reddit.com/r/bostonceltics/",
-      discord: "www.discord.com",
+      discord: "www.discord.com/channels/555171631539028000/555651584521142274",
     },
     {
       fullname: "Brooklyn Nets",
@@ -25,7 +25,7 @@ export const TEAMS = {
       short: "BKN",
       other: [],
       reddit: "www.reddit.com/r/GoNets/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652130946416644",
     },
     {
       fullname: "Charlotte Hornets",
@@ -34,7 +34,7 @@ export const TEAMS = {
       short: "CHA",
       other: [],
       reddit: "www.reddit.com/r/CharlotteHornets/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651962151108608",
     },
     {
       fullname: "Chicago Bulls",
@@ -43,7 +43,7 @@ export const TEAMS = {
       short: "CHI",
       other: [],
       reddit: "www.reddit.com/r/chicagobulls/",
-      discord: "www.discord.com",
+      discord: "www.discord.com/channels/555171631539028000/555651518255202304",
     },
     {
       fullname: "Cleveland Cavaliers",
@@ -52,7 +52,7 @@ export const TEAMS = {
       short: "CLE",
       other: ["Cavs"],
       reddit: "www.reddit.com/r/clevelandcavs/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651549192519680",
     },
     {
       fullname: "Dallas Mavericks",
@@ -61,7 +61,7 @@ export const TEAMS = {
       short: "DAL",
       other: ["Mavs"],
       reddit: "www.reddit.com/r/Mavericks/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652111543828480",
     },
     {
       fullname: "Denver Nuggets",
@@ -70,7 +70,7 @@ export const TEAMS = {
       short: "DEN",
       other: [],
       reddit: "www.reddit.com/r/denvernuggets/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652130946416644",
     },
     {
       fullname: "Detroit Pistons",
@@ -79,7 +79,7 @@ export const TEAMS = {
       short: "DET",
       other: [],
       reddit: "www.reddit.com/r/DetroitPistons/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652209984012298",
     },
     {
       fullname: "Golden State Warriors",
@@ -88,7 +88,7 @@ export const TEAMS = {
       short: "GSW",
       other: [],
       reddit: "www.reddit.com/r/warriors/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652443028062209",
     },
     {
       fullname: "Houston Rockets",
@@ -97,7 +97,7 @@ export const TEAMS = {
       short: "HOU",
       other: [],
       reddit: "www.reddit.com/r/rockets/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652267609423873",
     },
     {
       fullname: "Indiana Pacers",
@@ -106,7 +106,7 @@ export const TEAMS = {
       short: "IND",
       other: [],
       reddit: "www.reddit.com/r/pacers/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652186000982019",
     },
     {
       fullname: "Los Angeles Clippers",
@@ -115,7 +115,7 @@ export const TEAMS = {
       short: "LAC",
       other: ["LA Clippers", "Clips"],
       reddit: "www.reddit.com/r/LAClippers/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651773176741888",
     },
     {
       fullname: "Los Angeles Lakers",
@@ -124,7 +124,7 @@ export const TEAMS = {
       short: "LAL",
       other: ["LA Lakers"],
       reddit: "www.reddit.com/r/lakers/",
-      discord: "www.discord.com",
+      discord: "www.discord.com/channels/555171631539028000/555652063246417931",
     },
     {
       fullname: "Memphis Grizzlies",
@@ -133,7 +133,7 @@ export const TEAMS = {
       short: "MEM",
       other: [],
       reddit: "www.reddit.com/r/memphisgrizzlies/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651891271565312",
     },
     {
       fullname: "Miami Heat",
@@ -142,7 +142,7 @@ export const TEAMS = {
       short: "MIA",
       other: [],
       reddit: "www.reddit.com/r/heat/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651934703583244",
     },
     {
       fullname: "Milwaukee Bucks",
@@ -151,7 +151,7 @@ export const TEAMS = {
       short: "MIL",
       other: [],
       reddit: "www.reddit.com/r/milwaukeebucks/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555651488391757849",
     },
     {
       fullname: "Minnesota Timberwolves",
@@ -160,7 +160,7 @@ export const TEAMS = {
       short: "MIN",
       other: ["Wolves"],
       reddit: "www.reddit.com/r/timberwolves/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652385880408067",
     },
     {
       fullname: "New Orleans Pelicans",
@@ -169,7 +169,7 @@ export const TEAMS = {
       short: "NOP",
       other: ["Pels"],
       reddit: "www.reddit.com/r/NOLAPelicans/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652230431113237",
     },
     {
       fullname: "New York Knicks",
@@ -178,7 +178,7 @@ export const TEAMS = {
       short: "NYK",
       other: ["Knickerbockers"],
       reddit: "www.reddit.com/r/NYKnicks/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652030287577101",
     },
     {
       fullname: "Oklahoma City Thunder",
@@ -187,7 +187,7 @@ export const TEAMS = {
       short: "OKC",
       other: ["OKC"],
       reddit: "www.reddit.com/r/Thunder/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652353139933226",
     },
     {
       fullname: "Orlando Magic",
@@ -196,7 +196,7 @@ export const TEAMS = {
       short: "ORL",
       other: [],
       reddit: "www.reddit.com/r/OrlandoMagic/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652074658988033",
     },
     {
       fullname: "Philadelphia Sixers",
@@ -205,7 +205,7 @@ export const TEAMS = {
       short: "PHI",
       other: ["76ers"],
       reddit: "www.reddit.com/r/sixers/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652299054120960",
     },
     {
       fullname: "Phoenix Suns",
@@ -214,7 +214,7 @@ export const TEAMS = {
       short: "PHX",
       other: [],
       reddit: "www.reddit.com/r/suns/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652332667273228",
     },
     {
       fullname: "Portland Trail Blazers",
@@ -223,7 +223,7 @@ export const TEAMS = {
       short: "POR",
       other: ["Blazers", "Rip City"],
       reddit: "www.reddit.com/r/ripcity/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652416226328577",
     },
     {
       fullname: "Sacramento Kings",
@@ -232,7 +232,7 @@ export const TEAMS = {
       short: "SAC",
       other: [],
       reddit: "www.reddit.com/r/kings/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652007621296129",
     },
     {
       fullname: "San Antonio Spurs",
@@ -241,7 +241,7 @@ export const TEAMS = {
       short: "SAS",
       other: [],
       reddit: "www.reddit.com/r/NBASpurs/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652312853643279",
     },
     {
       fullname: "Toronto Raptors",
@@ -250,7 +250,7 @@ export const TEAMS = {
       short: "TOR",
       other: [],
       reddit: "www.reddit.com/r/torontoraptors/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652255068585996",
     },
     {
       fullname: "Utah Jazz",
@@ -259,7 +259,7 @@ export const TEAMS = {
       short: "UTA",
       other: [],
       reddit: "www.reddit.com/r/UtahJazz/",
-      discord: "",
+      discord: "https://discord.com/channels/555171631539028000/555651990865051650",
     },
     {
       fullname: "Washington Wizards",
@@ -268,7 +268,7 @@ export const TEAMS = {
       short: "WAS",
       other: [],
       reddit: "www.reddit.com/r/washingtonwizards/",
-      discord: "",
+      discord: "www.discord.com/channels/555171631539028000/555652459364614155",
     },
   ],
 };
