@@ -1,34 +1,33 @@
 {
-    "name": "Sports Discussion",
-    "version": "1.0",
-    "description": "A chome extension that allows users to discuss everything about sports.",
-    "manifest_version": 2,
-    "background": {
-        "scripts": [
-            "js/background.js"
-        ],
-        "persistent": false
-    },
-    "permissions": [
-        "storage",
-        "declarativeContent",
-        "tabs",
-        "https://*/",
-        "http://*/"
-    ],
-    "page_action": {
-        "default_popup": "templates/base.html",
-        "default_icon": {
-            "16": "images/logo_16.png",
-            "32": "images/logo_32.png",
-            "48": "images/logo_48.png",
-            "128": "images/logo_128.png"
-        }
-    },
-    "icons": {
-        "16": "images/logo_16.png",
-        "32": "images/logo_32.png",
-        "48": "images/logo_48.png",
-        "128": "images/logo_128.png"
+  "name": "Sports Discussion",
+  "version": "1.0",
+  "description": "A chome extension that allows users to discuss everything about sports.",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://unpkg.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js https://code.jquery.com/jquery-3.2.1.slim.min.js; object-src 'self';",
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "tabs",
+    "https://*/",
+    "http://*/"
+  ],
+  "page_action": {
+    "default_popup": "templates/base.html",
+    "default_icon": {
+      "16": "images/logo_16.png",
+      "32": "images/logo_32.png",
+      "48": "images/logo_48.png",
+      "128": "images/logo_128.png"
     }
+  },
+  "icons": {
+    "16": "images/logo_16.png",
+    "32": "images/logo_32.png",
+    "48": "images/logo_48.png",
+    "128": "images/logo_128.png"
+  }
 }
