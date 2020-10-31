@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "A chome extension that allows users to discuss everything about sports.",
   "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js https://code.jquery.com/jquery-3.2.1.slim.min.js; object-src 'self';",
+  "content_security_policy": "script-src 'self' https://unpkg.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js https://code.jquery.com/jquery-3.2.1.slim.min.js; object-src 'self';",
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false
