@@ -15,15 +15,20 @@ chrome.tabs.query(
     const code = `
         var metas = document.getElementsByTagName('meta'); 
         var keywords_meta = '';
+        var news_keywords_meta = '';
 
         for (var i = 0; i < metas.length; i++) { 
             var name = metas[i].getAttribute("name");
             var content = metas[i].getAttribute("content");
             if (name === "keywords") {
                 keywords_meta = content;
-            }    
-        } 
-        
+            } else if (name === "news_keywords") {
+                news_keywords_meta = content;
+            }
+        }
+
+        keywords_meta = keywords_meta || news_keywords_meta;
+
         chrome.runtime.sendMessage({
             method: "getKeywordsMeta",
             metas: keywords_meta,
@@ -59,6 +64,7 @@ chrome.tabs.query(
  */
 chrome.runtime.onMessage.addListener(function (request, sender) {
   if (request.method == "getKeywordsMeta") {
+    console.log(request);
     console.log("Metas in listener: " + request.metas);
 
     // First extract teams
@@ -74,7 +80,7 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
     teams.forEach((element) => {
       console.log(element);
       const team_div = document.createElement("div");
-      team_div.setAttribute("class", "team");
+      team_div.setAttribute("class", "p-3 border bg-light");
       team_div.setAttribute("id", element.fullname);
 
       const title = document.createElement("h3");
@@ -86,8 +92,9 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
       const reddit_link = document.createElement("a");
       let linktext = document.createTextNode(element.fullname);
       reddit_link.appendChild(linktext);
-      reddit_link.href = element.reddit;
+      reddit_link.href = "https://" + element.reddit;
       reddit_link.setAttribute("class", "reddit badge badge-primary");
+      reddit_link.setAttribute("target", "_blank");
 
       const discord_link = document.createElement("p");
       discord_link.innerHTML = element.discord;
