@@ -43,7 +43,7 @@ export const TEAMS = {
       short: "CHI",
       other: [],
       reddit: "www.reddit.com/r/chicagobulls/",
-      discord: "www.discord.com/channels/555171631539028000/555651518255202304",
+      discord: "https://discord.com/channels/223292047753347072/400110903967612928",
     },
     {
       fullname: "Cleveland Cavaliers",
@@ -250,7 +250,7 @@ export const TEAMS = {
       short: "TOR",
       other: [],
       reddit: "www.reddit.com/r/torontoraptors/",
-      discord: "www.discord.com/channels/555171631539028000/555652255068585996",
+      discord: "https://discord.com/channels/239938866662998017/746140064551010322",
     },
     {
       fullname: "Utah Jazz",
