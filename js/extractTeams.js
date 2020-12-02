@@ -1,5 +1,13 @@
 import { TEAMS } from "./teams.js";
 
+export function extractLeague(url) {
+  const url_paths = url.split("/");
+  const league = Object.keys(TEAMS).find((league) =>
+    url_paths.includes(league.toLocaleLowerCase())
+  );
+
+  return league;
+}
 /* Function that extracts team names based on given inputs
  * title: String. REQUIRED.     Title of the ESPN page
  * url: String. REQUIRED.       URL of the ESPN page
@@ -30,11 +38,11 @@ export function extractTeams(title, url, keywords = "", content = "") {
   if (keywords) {
     // keywords format: "kw1, kw2, kw3, kw4"
     const kw_list = keywords.split(",").map((kw) => {
-      return kw.trim();
+      return kw.trim().toLocaleLowerCase();
     });
 
     teams_from_keywords = all_teams.filter((team) => {
-      return kw_list.includes(team.fullname);
+      return kw_list.includes(team.fullname.toLocaleLowerCase());
     });
   }
   console.log("teams_from_keywords" + teams_from_keywords);

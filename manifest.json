@@ -1,6 +1,6 @@
 {
   "name": "Sports Discussion",
-  "version": "1.0",
+  "version": "0.0.0.1",
   "description": "A chome extension that allows users to discuss everything about sports.",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://unpkg.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js https://code.jquery.com/jquery-3.2.1.slim.min.js; object-src 'self';",
@@ -9,11 +9,14 @@
     "persistent": false
   },
   "permissions": [
-    "storage",
     "declarativeContent",
     "tabs",
-    "https://*/",
-    "http://*/"
+    "https://www.espn.com/*/",
+    "https://discord.com/*/",
+    "https://www.reddit.com/*/",
+    "http://www.espn.com/*/",
+    "http://discord.com/*/",
+    "http://www.reddit.com/*/"
   ],
   "page_action": {
     "default_popup": "templates/base.html",

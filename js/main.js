@@ -1,4 +1,4 @@
-import { extractTeams } from "./extractTeams.js";
+import { extractTeams, extractLeague } from "./extractTeams.js";
 
 /* Get the keywords meta of the active ESPN page, and then send a message that includes the meta content,
  * page url, and page title.
@@ -67,6 +67,7 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
     console.log(request);
     console.log("Metas in listener: " + request.metas);
 
+    const league = extractLeague(request.tab_url);
     // First extract teams
     const teams = extractTeams(
       request.tab_title,
@@ -84,7 +85,7 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
       team_div.setAttribute("id", element.fullname);
 
       const team_logo = document.createElement("img");
-      team_logo.setAttribute("src", `../images/team_logo/${element.short}.png`);
+      team_logo.setAttribute("src", `../images/team_logo/${league}/${element.short}.png`);
       team_logo.setAttribute("height", 48);
       team_logo.setAttribute("style", "float:right");
 
