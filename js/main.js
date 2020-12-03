@@ -1,4 +1,5 @@
 import { extractTeams, extractLeague } from "./extractTeams.js";
+import { getChannelPreview } from "./getChannelPreview.js";
 
 /* Get the keywords meta of the active ESPN page, and then send a message that includes the meta content,
  * page url, and page title.
@@ -107,6 +108,23 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
       reddit_link.setAttribute("target", "_blank");
       reddit_div.appendChild(reddit_img);
       reddit_div.appendChild(reddit_link);
+      
+      const preview_div = document.createElement("span");
+      
+      getChannelPreview(element.reddit, 2)
+      .then((posts) => {
+        posts.map(p => {
+          const post_link = document.createElement("a");
+          let linktext = document.createTextNode(p.title + ' ' + p.ups);
+          post_link.appendChild(linktext);
+          post_link.href = "https://www.reddit.com" + p.url;
+          post_link.setAttribute("target", "_blank");
+          preview_div.appendChild(post_link);
+          preview_div.appendChild(document.createElement('p')); // for spacing
+        });
+      })
+
+      reddit_div.appendChild(preview_div);
 
       // Discord
       const discord_div = document.createElement("div");
@@ -131,4 +149,6 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
       all_teams_div.appendChild(team_div);
     });
   }
+
+  return true;
 });
