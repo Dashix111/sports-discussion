@@ -590,7 +590,7 @@ export const TEAMS = {
       discord: "discord.gg/raC6ehApxm",
     },
     {
-      fullname: "Florida Panther",
+      fullname: "Florida Panthers",
       city: "Florida",
       team: "Panthers",
       short: "FLA",
