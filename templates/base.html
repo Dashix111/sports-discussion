@@ -7,17 +7,29 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <style>
+      #heading{
+         margin-top: 20px;
+      }
+      html,body{
+        text-align: center;
+        width: 350px;
+        background-color:azure
+      }
+    </style>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, Sportsfans!</h1>
-      <p class="lead">
-        This is a navigation menu redirecting from ESPN.com to the right
-        Reddit channels and Discord servers
-      </p>
-      <hr class="my-4" />
+      <div id="heading">
+          <h3>Hello, Sportsfans!<h3>
+      </div>
+      <hr>
+      <div id="heading">
+        <h6>This is a navigation menu redirecting from ESPN.com to the right Reddit
+          channels and Discord servers<h6>
     </div>
-    <div class="row mx-md-n5"> 
+
+    </div>
+    <div class="row mx-md-n5">
       <div id="teams" class="col px-md-5"></div>
     </div>
     <script type="module" src="../js/main.js"></script>
