@@ -554,7 +554,7 @@ export const TEAMS = {
     {
       fullname: "Washington",
       city: "Washington",
-      team: "",
+      team: "/",
       short: "WAS",
       other: [],
       reddit: "www.reddit.com/r/washingtonNFL",
@@ -849,7 +849,7 @@ export const TEAMS = {
       team: "/",
       short: "Ferrari",
       other: [],
-      reddit: "www.reddit.com/r/scuderiaferrari/",
+      reddit: "www.reddit.com/r/scuderiaferrari",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -858,7 +858,7 @@ export const TEAMS = {
       team: "/",
       short: "Haas",
       other: [],
-      reddit: "www.reddit.com/r/haasf1team/",
+      reddit: "www.reddit.com/r/haasf1team",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -867,7 +867,7 @@ export const TEAMS = {
       team: "/",
       short: "Red Bull",
       other: [],
-      reddit: "www.reddit.com/r/RedBullRacing/",
+      reddit: "www.reddit.com/r/RedBullRacing",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -876,7 +876,7 @@ export const TEAMS = {
       team: "/",
       short: "McLaren",
       other: [],
-      reddit: "www.reddit.com/r/McLarenFormula1/",
+      reddit: "www.reddit.com/r/McLarenFormula1",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -885,7 +885,7 @@ export const TEAMS = {
       team: "/",
       short: "Mercedes",
       other: [],
-      reddit: "www.reddit.com/r/mercedesamgf1/",
+      reddit: "www.reddit.com/r/mercedesamgf1",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -894,7 +894,7 @@ export const TEAMS = {
       team: "/",
       short: "Racing Point",
       other: [],
-      reddit: "www.reddit.com/r/RacingPointF1/",
+      reddit: "www.reddit.com/r/RacingPointF1",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -903,7 +903,7 @@ export const TEAMS = {
       team: "/",
       short: "Williams",
       other: [],
-      reddit: "www.reddit.com/r/WilliamsF1/",
+      reddit: "www.reddit.com/r/WilliamsF1",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -921,7 +921,7 @@ export const TEAMS = {
       team: "/",
       short: "Renault",
       other: [],
-      reddit: "www.reddit.com/r/formula1/",
+      reddit: "www.reddit.com/r/formula1",
       discord: "discord.com/invite/WcJsaqf",
     },
     {
@@ -930,7 +930,7 @@ export const TEAMS = {
       team: "/",
       short: "Alpha Tauri",
       other: [],
-      reddit: "www.reddit.com/r/formula1/",
+      reddit: "www.reddit.com/r/formula1",
       discord: "discord.com/invite/WcJsaqf",
     },
   ]
